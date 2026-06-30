@@ -44,7 +44,7 @@ function getStackblitzEl(projectId: string, exampleId?: string) {
     openFile: exampleId ? `src/examples/${exampleId}/example.tsx` : undefined,
   };
 
-  const isGithub = projectId.startsWith('KurtGokhan');
+  const isGithub = projectId.startsWith('gkurt');
 
   const embedFn = isGithub ? StackBlitzSDK.embedGithubProject : StackBlitzSDK.embedProjectId;
   const embedPromise = embedFn(el, projectId, opts);
@@ -73,7 +73,7 @@ export function Stackblitz(props: Props) {
   return <BrowserOnly>{() => <StackblitzCore {...props} />}</BrowserOnly>;
 }
 
-function StackblitzCore({ embedId = 'KurtGokhan/tanstack-query-builder/tree/main/examples/vite', exampleId = 'main' }: Props) {
+function StackblitzCore({ embedId = 'gkurt/tanstack-query-builder/tree/main/examples/vite', exampleId = 'main' }: Props) {
   const el = getStackblitzEl(embedId, exampleId);
 
   const ref = useCallback((node) => node?.appendChild(el), [el]);

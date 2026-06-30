@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/tanstack-query-builder?style=for-the-badge)](https://www.npmjs.com/package/tanstack-query-builder)
-[![NPM](https://img.shields.io/npm/l/tanstack-query-builder?style=for-the-badge)](https://github.com/KurtGokhan/tanstack-query-builder/blob/main/LICENSE)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/KurtGokhan/tanstack-query-builder/ci.yml?style=for-the-badge)](https://github.com/KurtGokhan/tanstack-query-builder/actions/workflows/ci.yml)
+[![NPM](https://img.shields.io/npm/l/tanstack-query-builder?style=for-the-badge)](https://github.com/gkurt/tanstack-query-builder/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gkurt/tanstack-query-builder/ci.yml?style=for-the-badge)](https://github.com/gkurt/tanstack-query-builder/actions/workflows/ci.yml)
 
 # Tanstack Query Builder
 

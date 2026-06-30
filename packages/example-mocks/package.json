@@ -6,13 +6,13 @@
   "homepage": "https://gkurt.com/tanstack-query-builder/",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/KurtGokhan/tanstack-query-builder.git"
+    "url": "git+ssh://git@github.com/gkurt/tanstack-query-builder.git"
   },
   "license": "MIT",
   "author": {
     "name": "Gokhan Kurt",
     "email": "krtgkn@gmail.com",
-    "url": "https://github.com/KurtGokhan"
+    "url": "https://github.com/gkurt"
   },
   "exports": {
     ".": "./src/index.ts",

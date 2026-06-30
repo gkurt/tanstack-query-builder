@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'KurtGokhan', // Usually your GitHub org/user name.
+  organizationName: 'gkurt', // Usually your GitHub org/user name.
   projectName: 'tanstack-query-builder', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/KurtGokhan/tanstack-query-builder/',
+          // editUrl: 'https://github.com/gkurt/tanstack-query-builder/',
 
           remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true, converters: ['yarn', 'pnpm', 'bun'] }]],
         },
@@ -61,7 +61,7 @@ const config = {
         title: 'Tanstack Query Builder',
         items: [
           {
-            href: 'https://github.com/KurtGokhan/tanstack-query-builder',
+            href: 'https://github.com/gkurt/tanstack-query-builder',
             label: 'GitHub',
             position: 'right',
           },

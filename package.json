@@ -7,14 +7,14 @@
   "homepage": "https://gkurt.com/tanstack-query-builder/",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/KurtGokhan/tanstack-query-builder.git"
+    "url": "git+ssh://git@github.com/gkurt/tanstack-query-builder.git"
   },
   "keywords": ["react", "react-query", "tanstack-query", "optimistic-updates", "tag-based-invalidation"],
   "license": "MIT",
   "author": {
     "name": "Gokhan Kurt",
     "email": "krtgkn@gmail.com",
-    "url": "https://github.com/KurtGokhan"
+    "url": "https://github.com/gkurt"
   },
   "scripts": {
     "start": "npm run start --workspace=tanstack-query-builder-example-vite",
